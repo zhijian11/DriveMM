@@ -14,7 +14,7 @@ This repository contains the implementation of the paper:
 </p>
 
 ## :fire: Updates
-- **2024.12**: We release DriveMM paper on arxiv！We release the models and demo code!
+- **2024.12**: We release DriveMM paper on arxiv！We release the models and inference code!
 
 ## :sparkles: Hightlights
 🔥 We propose a novel all-in-one large multimodal model, **DriveMM**, robustly equipped with the general capabilities to execute a wide range of AD tasks and the generalization ability to effectively transfer to new datasets.
@@ -50,12 +50,11 @@ pip install -e ".[train]"
 ```bash
 cd scripts/inference_demo
 python demo_image.py # for image input 
-pyrhon demo_video.py # for video input
+python demo_video.py # for video input
 ```
 ## :white_check_mark: TODO
 - [x] DriveMM models
-- [x] DriveMM demo code
-- [ ] DriveMM inference code
+- [x] DriveMM inference code
 - [ ] DriveMM evaluation code
 - [ ] DriveMM training data
 - [ ] DriveMM training code

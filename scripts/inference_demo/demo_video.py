@@ -12,7 +12,7 @@ import sys
 import warnings
 
 warnings.filterwarnings("ignore")
-pretrained = "../../ckpt/llavanext-google_siglip-so400m-patch14-384-Meta-Llama-3.1-8B-Instruct-mlp2x_gelu-pretrain_blip558k_plain_drivedata_6datasets_uniprompt_recaption_sample_adjust_11231100"
+pretrained = "../../ckpt/DriveMM"
 model_name = get_model_name_from_path(pretrained)
 device = torch.device('cuda:0')
 llava_model_args = {

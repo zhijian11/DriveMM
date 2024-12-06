@@ -1,21 +1,20 @@
 # DriveMM: All-in-One Large Multimodal Model for Autonomous Driving
 [![arXiv](https://img.shields.io/badge/arXiv-0000.0000-b31b1b.svg?style=plastic)]() 
 [![Web](https://img.shields.io/badge/Web-DriveMM-blue.svg?style=plastic)](https://zhijian11.github.io/DriveMM/) 
-<!-- [![HF](https://img.shields.io/badge/%F0%9F%A4%97-HuggingFace-yellow?style=plastic)](https://huggingface.co/collections/KaiChen1998/coda-lm-6726500ab7d88dbcf9dc3fd0) -->
+
 
 This repository contains the implementation of the paper:
 
-> Automated Evaluation of Large Vision-Language Models on Self-driving Corner Cases <br>
+> DriveMM: All-in-One Large Multimodal Model for Autonomous Driving <br>
 > [Zhijian Huang](https://zhijian11.github.io/)\*, [Chenjian Feng](https://fcjian.github.io/)\*, [Fen Yan](https://scholar.google.com.hk/citations?user=gO4divAAAAAJ&hl=zh-CN&oi=sra), [Baihui Xiao](hxbh23@mails.tsinghua.edu.cn), [Zequn Jie](https://scholar.google.com/citations?user=4sKGNB0AAAAJ&hl=zh-CN&oi=ao), [Yujie Zhong](https://y-zhong.info/), [Xiaodan liang](https://lemondan.github.io/)†, [Lin Ma](http://forestlinma.com/)† <br>
 > *Equal Contribution   †Corresponding Authors
-<!-- > <br>*IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2025* -->
 
 <p align="center" style="background-color: white;">
   <img src="./images/overview.png" style="width: 100%; margin: 0 auto; text-align: center"/>
 </p>
 
 ## :fire: Updates
-- **2024.12**: We release DriveMM paper on arxiv！We release the pre-trained models and inference code!
+- **2024.12**: We release DriveMM paper on arxiv！We release the models and demo code!
 
 ## :sparkles: Hightlights
 🔥 We propose a novel all-in-one large multimodal model, **DriveMM**, robustly equipped with the general capabilities to execute a wide range of AD tasks and the generalization ability to effectively transfer to new datasets.
@@ -47,6 +46,7 @@ pip install --upgrade pip  # Enable PEP 660 support.
 pip install -e ".[train]"
 ```
 #### 3. **Inference DriveMM demo:**
+- Download the [checkpoint](https://huggingface.co/DriveMM/DriveMM/tree/main) and put them on ckpt/ floder.
 ```bash
 cd scripts/inference_demo
 python demo_image.py # for image input 
@@ -62,7 +62,7 @@ pyrhon demo_video.py # for video input
 
 
 ## :blush: Acknowledge
-This project has referenced some excellent open-sourced repos. Thanks for their wonderful works and contributions to the community.
+This project has referenced some excellent open-sourced repos([LLaVa-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT/tree/main)). Thanks for their wonderful works and contributions to the community.
 <!-- ([Detectron2](https://github.com/facebookresearch/detectron2), [detrex](https://github.com/IDEA-Research/detrex), [GLIP](https://github.com/microsoft/GLIP), [G-DINO](https://github.com/IDEA-Research/GroundingDINO), [YOLO-World](https://github.com/AILab-CVC/YOLO-World)).  -->
 
 

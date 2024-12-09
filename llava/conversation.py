@@ -392,7 +392,8 @@ conv_llava_llama_3 = Conversation(
     sep="<|eot_id|>",
     sep_style=SeparatorStyle.LLAMA_3,
     tokenizer_id="meta-llama/Meta-Llama-3-8B-Instruct",
-    tokenizer=safe_load_tokenizer("meta-llama/Meta-Llama-3-8B-Instruct"),
+    # tokenizer=safe_load_tokenizer("meta-llama/Meta-Llama-3-8B-Instruct"),
+    tokenizer=AutoTokenizer.from_pretrained("/mnt/dolphinfs/hdd_pool/docker/user/hadoop-basecv/wanghao/inits/llms/llama3.1/Meta-Llama-3.1-8B-Instruct"),
     stop_token_ids=[128009],
 )
 

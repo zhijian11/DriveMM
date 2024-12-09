@@ -68,11 +68,11 @@ This project has referenced some excellent open-sourced repos([LLaVa-NeXT](https
 ## :pushpin: Citation
 If you find DriveMM is helpful for your research or applications, please consider giving us a star 🌟 and citing it by the following BibTex entry.
 
-<!-- ```bibtex
-@article{wang2024ovdino,
-  title={OV-DINO: Unified Open-Vocabulary Detection with Language-Aware Selective Fusion}, 
-  author={Hao Wang and Pengzhen Ren and Zequn Jie and Xiao Dong and Chengjian Feng and Yinlong Qian and Lin Ma and Dongmei Jiang and Yaowei Wang and Xiangyuan Lan and Xiaodan Liang},
-  journal={arXiv preprint arXiv:2407.07844},
+```bibtex
+@article{huang2024drivemm,
+  title={DriveMM: All-in-One Large Multimodal Model for Autonomous Driving},
+  author={Huang, Zhijian and Fen, Chengjian and Yan, Feng and Xiao, Baihui and Jie, Zequn and Zhong, Yujie and Liang, Xiaodan and Ma, Lin},
   year={2024}
-} -->
+}
 ```
+  <!-- journal={arXiv preprint arXiv:2407.07844}, -->

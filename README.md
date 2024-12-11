@@ -14,7 +14,7 @@ This repository contains the implementation of the paper:
 </p>
 
 ## :fire: Updates
-- **2024.12**: We release DriveMM paper on arxiv！We release the models and inference code!
+- **2024.12**: We release DriveMM paper on [arxiv](https://arxiv.org/abs/2412.07689)！We release the [models](https://huggingface.co/DriveMM/) and inference code!
 
 ## :sparkles: Hightlights
 🔥 We propose a novel all-in-one large multimodal model, **DriveMM**, robustly equipped with the general capabilities to execute a wide range of AD tasks and the generalization ability to effectively transfer to new datasets.

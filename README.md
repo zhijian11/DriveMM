@@ -1,5 +1,5 @@
 # DriveMM: All-in-One Large Multimodal Model for Autonomous Driving
-[![arXiv](https://img.shields.io/badge/arXiv-0000.0000-b31b1b.svg?style=plastic)]() 
+[![arXiv](https://img.shields.io/badge/arXiv-2412.07689-b31b1b.svg?style=plastic)]() 
 [![Web](https://img.shields.io/badge/Web-DriveMM-blue.svg?style=plastic)](https://zhijian11.github.io/DriveMM/) 
 
 
@@ -72,7 +72,7 @@ If you find DriveMM is helpful for your research or applications, please conside
 @article{huang2024drivemm,
   title={DriveMM: All-in-One Large Multimodal Model for Autonomous Driving},
   author={Huang, Zhijian and Fen, Chengjian and Yan, Feng and Xiao, Baihui and Jie, Zequn and Zhong, Yujie and Liang, Xiaodan and Ma, Lin},
+  journal={arXiv preprint arXiv:2412.07689},
   year={2024}
 }
 ```
-  <!-- journal={arXiv preprint arXiv:2407.07844}, -->

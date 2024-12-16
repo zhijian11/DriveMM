@@ -6,7 +6,7 @@
 This repository contains the implementation of the paper:
 
 > DriveMM: All-in-One Large Multimodal Model for Autonomous Driving <br>
-> [Zhijian Huang](https://zhijian11.github.io/)\*, [Chenjian Feng](https://fcjian.github.io/)\*, [Fen Yan](https://scholar.google.com.hk/citations?user=gO4divAAAAAJ&hl=zh-CN&oi=sra), [Baihui Xiao](hxbh23@mails.tsinghua.edu.cn), [Zequn Jie](https://scholar.google.com/citations?user=4sKGNB0AAAAJ&hl=zh-CN&oi=ao), [Yujie Zhong](https://y-zhong.info/), [Xiaodan liang](https://lemondan.github.io/)†, [Lin Ma](http://forestlinma.com/)† <br>
+> [Zhijian Huang](https://zhijian11.github.io/)\*, [Chenjian Feng](https://fcjian.github.io/)\*, [Feng Yan](https://scholar.google.com.hk/citations?user=gO4divAAAAAJ&hl=zh-CN&oi=sra), [Baihui Xiao](hxbh23@mails.tsinghua.edu.cn), [Zequn Jie](https://scholar.google.com/citations?user=4sKGNB0AAAAJ&hl=zh-CN&oi=ao), [Yujie Zhong](https://y-zhong.info/), [Xiaodan liang](https://lemondan.github.io/)†, [Lin Ma](http://forestlinma.com/)† <br>
 > *Equal Contribution   †Corresponding Authors
 
 <p align="center" style="background-color: white;">

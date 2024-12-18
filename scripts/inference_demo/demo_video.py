@@ -13,7 +13,7 @@ import warnings
 
 warnings.filterwarnings("ignore")
 pretrained = "../../ckpt/DriveMM"
-model_name = get_model_name_from_path(pretrained)
+model_name = 'llama'  #get_model_name_from_path(pretrained)
 device = torch.device('cuda:0')
 llava_model_args = {
         "multimodal": True,

@@ -76,4 +76,4 @@ onevisiondata/
 ckpt
 scripts/inference_demo/check*
 scripts/inference_demo/infer*
-llava/conversation.py
+llava/conversation*
